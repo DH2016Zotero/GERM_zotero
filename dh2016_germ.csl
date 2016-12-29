@@ -308,7 +308,7 @@
   </macro>
   <macro name="alt-publisher">
     <choose>
-      <if type="book chapter                 paper-conference                 entry-dictionary entry-encyclopedia" match="none">
+      <if type="book chapter paper-conference entry-dictionary entry-encyclopedia" match="none">
         <text variable="publisher"/>
       </if>
     </choose>

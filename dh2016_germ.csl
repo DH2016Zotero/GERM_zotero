@@ -3,9 +3,7 @@
   <info>
     <title>DH2016 Citation Style</title>
     <id>http://www.zotero.org/styles/test</id>
-    <link href="http://www.zotero.org/styles/test" rel="self"/>
-    <link href="http://www.zotero.org/styles/infoclio-fr-smallcaps" rel="template"/>
-    <link href="https://www.infoclio.ch/de/node/133932" rel="documentation"/>
+    <link href="https://github.com/DH2016Zotero/GERM_zotero" rel="self"/>
     <author>
       <name>Timothy Schneider</name>
     </author>

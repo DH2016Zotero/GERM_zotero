@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" default-locale="de-CH" version="1.0" name-delimiter="; " delimiter-precedes-last="always" delimiter-precedes-et-al="never">
-  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>DH2016 Citation Style</title>
     <id>http://www.zotero.org/styles/test</id>
@@ -311,7 +310,7 @@
   </macro>
   <macro name="alt-publisher">
     <choose>
-      <if type="book chapter                 paper-conference                 entry-dictionary entry-encyclopedia" match="none">
+      <if type="book chapter paper-conference entry-dictionary entry-encyclopedia" match="none">
         <text variable="publisher"/>
       </if>
     </choose>

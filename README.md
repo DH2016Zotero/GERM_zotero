@@ -1,7 +1,7 @@
 # GERM_zotero Project
 ### Willkommen
 <p>
-Dies ist die Startseite des Mini-Projektes GERM_zotero. Im Rahmen der Verstaltung *Introduction to Digital Editions and Digital Data (HS2016)* der [**Digital Humanities**](http://www.dh.unibe.ch/) der Universität Bern.
+Dies ist die Startseite des Mini-Projektes GERM_zotero, welches im Rahmen der Verstaltung *Introduction to Digital Editions and Digital Data (HS2016)* der [**Digital Humanities**](http://www.dh.unibe.ch/) der Universität Bern gestartet wurde.
 
 ####Site-Map
 * <a href="https://github.com/DH2016Zotero/GERM_zotero/wiki">GERM_zotero Wiki</a>

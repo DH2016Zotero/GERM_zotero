@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" default-locale="de-CH" version="1.0" name-delimiter="; " delimiter-precedes-last="always" delimiter-precedes-et-al="never">
   <info>
-    <title>DH2016 Citation Style</title>
+  <title>DH2016 Citation Style for German Philology BETA</title>
     <id>http://www.zotero.org/styles/test</id>
     <link href="https://github.com/DH2016Zotero/GERM_zotero" rel="self"/>
     <author>
@@ -13,9 +13,11 @@
     <author>
       <name>Reto Vonlanthen</name>
     </author>
-    <category citation-format="note"/>
-    <category field="Germanistik"/>
-    <updated>2016-12-27T16:16:56+00:00</updated>
+    <category citation-format="note"/> 
+    <category field="linguistics"/>
+	<category field="social_science"/>
+	<category field="humanities"/>
+    <updated>2017-01-02T21:15:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="de">
@@ -29,6 +31,7 @@
     </terms>
   </locale>
   <citation>
+  <!-- Conditional Rendering, siehe https://www.zotero.org/support/dev/citation_styles/style_editing_step-by-step -->
     <layout suffix="." delimiter=" ; ">
       <choose>
         <if position="ibid-with-locator">
@@ -65,6 +68,7 @@
           <text macro="creator"/>
           <group delimiter=". ">
             <text macro="title"/>
+			<text macro="edition_new"/>
             <group delimiter=": ">
               <text macro="in"/>
               <text macro="container-creator"/>
@@ -128,16 +132,31 @@
   </macro>
   <macro name="title">
     <choose>
-      <if type="book entry-encyclopedia entry-dictionary paper-conference" match="any">
+      <if type="book paper-conference" match="any">
         <text variable="title" font-style="italic"/>
       </if>
-      <else-if type="article article-journal article-magazine article-newspaper chapter" match="any">
+      <else-if type="article article-journal article-magazine article-newspaper chapter entry-encyclopedia entry-dictionary" match="any">
         <text variable="title" prefix="&quot;" suffix="&quot;"/>
       </else-if>
       <else>
         <text variable="title"/>
       </else>
     </choose>
+  </macro>
+  <macro name="edition_new">
+    <!--
+	<choose>
+	-->
+	<!--
+      <if type="book chapter paper-conference" match="any">
+	  -->
+		<text variable="edition"/>
+	<!--
+      </if>
+	-->
+	<!--
+    </choose>
+	-->
   </macro>
   <macro name="identifier-for-subsequent">
     <choose>
@@ -159,7 +178,7 @@
           <name et-al-min="2" et-al-use-first="1"/>
         </names>
       </else-if>
-      <else-if type="report song broadcast motion_picture                      webpage post post-weblog" match="any">
+      <else-if type="report song broadcast motion_picture webpage post post-weblog" match="any">
         <text variable="collection-title"/>
         <text variable="container-title"/>
       </else-if>
@@ -217,7 +236,7 @@
       <if type="chapter paper-conference entry-encyclopedia entry-dictionary article-newspaper article-magazine article-journal" match="any">
         <text variable="container-title" font-style="italic"/>
       </if>
-      <else-if type="report song broadcast motion_picture                      webpage post post-weblog" match="any">
+      <else-if type="report song broadcast motion_picture webpage post post-weblog" match="any">
         <group delimiter=", ">
           <text variable="genre"/>
           <text variable="collection-title"/>
@@ -306,6 +325,7 @@
       </else-if>
     </choose>
   </macro>
+  <!-- altes Macro ohne Verlinkung -->
   <macro name="alt-publisher">
     <choose>
       <if type="book chapter paper-conference entry-dictionary entry-encyclopedia" match="none">
@@ -353,7 +373,7 @@
           </else>
         </choose>
       </if>
-      <else-if type="article-journal article-newspaper article-magazine graphic entry-encyclopedia entry-dictionary  report speech interview  manuscript personal_communication" match="any">
+      <else-if type="article-journal article-newspaper article-magazine graphic entry-encyclopedia entry-dictionary report speech interview  manuscript personal_communication" match="any">
         <choose>
           <if variable="issued">
             <date variable="issued" form="numeric" date-parts="year-month-day"/>

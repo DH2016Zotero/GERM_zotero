@@ -409,8 +409,8 @@
   <macro name="book-series">
     <choose>
       <if type="book chapter paper-conference entry-dictionary entry-encyclopedia" match="any">
-        <group font-style="italic" delimiter=" " prefix="(= " suffix=")">
-          <text variable="collection-title"/>
+        <group delimiter=" " prefix="(= " suffix=")">
+          <text variable="collection-title" font-style="italic"/>
           <choose>
             <if is-numeric="collection-number">
               <number variable="collection-number"/>

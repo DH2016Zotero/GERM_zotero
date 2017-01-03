@@ -14,6 +14,5 @@ Dies ist die Startseite des Mini-Projektes GERM_zotero, welches im Rahmen der Ve
   * <a href="https://github.com/DH2016Zotero/GERM_zotero/wiki/Entwicklungstagebuch">Entwicklungstagebuch</a>
 * <a href="https://github.com/DH2016Zotero/GERM_zotero/blob/master/dh2016_germ.csl">dh2016_germ.csl (Code-Ansicht)</a>
 * <a href="https://github.com/DH2016Zotero/GERM_zotero/commits/master/dh2016_germ.csl">Code History</a>
-
 * <a href="https://github.com/DH2016Zotero/GERM_zotero/graphs/contributors">Project Graphs</a>
 * <a href="https://github.com/DH2016Zotero/GERM_zotero/network">Code-Varianten</a>

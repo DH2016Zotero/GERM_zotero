@@ -4,7 +4,7 @@
 Dies ist die Startseite des Mini-Projektes GERM_zotero, welches im Rahmen der Veranstaltung <i>Introduction to Digital Editions and Digital Data (HS2016)</i> der <a href="http://www.dh.unibe.ch/" target="_blank"><b>Digital Humanities</b></a> der Universität Bern gestartet wurde.
 </p>
 
-####Site-Map
+###Site-Map
 <dl>
 <dt><a href="https://github.com/DH2016Zotero/GERM_zotero/wiki">GERM_zotero Wiki</a></dt>
 <dd><a href="https://github.com/DH2016Zotero/GERM_zotero/wiki/Mehr-%C3%BCber-das-inoffizielle-Projekt">Wer und wozu?</a><br />

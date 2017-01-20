@@ -10,7 +10,7 @@ Dies ist die Startseite des Mini-Projektes GERM_zotero, welches im Rahmen der Ve
 <a href="https://github.com/DH2016Zotero/GERM_zotero/wiki/how-to">How to</a><br />
 <a href="https://github.com/DH2016Zotero/GERM_zotero/wiki/Zitierregeln-nach-Prof.-Dr.-Hentschel">Zitierregeln</a><br />
 <a href="https://github.com/DH2016Zotero/GERM_zotero/wiki/Rechtliches">Rechtliches</a><br />
-<a href="https://github.com/DH2016Zotero/GERM_zotero/wiki/Coming-soon"><i>Comming soon</i></a><br />
+<a href="https://github.com/DH2016Zotero/GERM_zotero/wiki/Coming-soon"><i>Coming soon</i></a><br />
 <a href="https://github.com/DH2016Zotero/GERM_zotero/wiki/Entwicklungstagebuch">Entwicklungstagebuch</a></dd>
   
   <dt>Code</dt>
